@@ -1,4 +1,5 @@
 # init a base image (Alpine is small Linux distro)
+#let's try this 
 FROM python:3.6.1-alpine
 # update pip to minimize dependency errors 
 RUN pip install --upgrade pip
